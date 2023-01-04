@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Blogger@Harry</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="C:\Js file\.vscode\blogg.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span style="color:red" class="ml-3 text-xl">Coder Harry</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a style="color:chocolate" class="mr-5 hover:text-gray-900">Blog</a>
+            <a style="color:darkgreen" class="mr-5 hover:text-gray-900">Home</a>
+            <a style="color:aqua" class="mr-5 hover:text-gray-900">About</a>
+            <a style="color:dodgerblue" class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+          <button style="background-color:cyan;color:royalblue" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Enroll Now
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>  
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello Everyone ! Welcome to my Blog...
+              <br class="hidden lg:inline-block">Thank You Everyone for your visiting in my website.</br><br>
+            <p class="mb-8 leading-relaxed"><p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Visit</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Like</button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?blogger,nature,animals,beauty of nature">
+          </div>
+        </div>
+      </section>
+      <hr style="color:red" size="100">
+      <p>
+Display Message in a file C program
+by Coder HArry - Leave a Comment
+/*Display Message*/ #include<stdio.h> #include<conio.h> main() { char str[30]="Hello World"; FILE *p; p=fopen("a.txt","w"); fprintf(p,"%s",str); fclose(p); }<br>  
+
+<button style="background-color:green; color:red" class="C programs"> READ MORE........</button><br><br>
+N number of Name, address,phone in a file and display in proper format in C Program
+by Prajwal Rai - Leave a Comment
+/*N number of Name, address,phone in a file and display in proper format*/ #include<stdio.h> #include<conio.h> main() { char name[50]; char address[50]; char telno[50]; FILE *fp; int i,n; fp=fopen("a.dat","a"); printf("How many records:"); scanf("%d",&n); for(i=0;i<n;i++) { printf("\nEnter the name:"); scanf("%s",name); printf("\nEnter the …
+
+
+Sum of N integer using recursion
+by Prajwal Rai - Leave a Comment
+*sum of N integer using recursion* #include <stdio.h> int sum(int n); main() { int number, result; printf("Enter a positive integer: "); scanf("%d", &number); result = sum(number); printf("sum = %d", result); return 0; } int sum(int n) { if (n != …
+
+  <button style="background-color:green; color:red" class="C programs">READ MORE........</button>
+      </p>
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+              <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                  <label for="footer-field" class="leading-7 text-sm text-gray-600">Enter your e-mail</label>
+                  <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Summit</button>
+              </div>
+              <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Always Raise up...!
+                <br class="lg:block hidden">Learn something from from me ,Gain sth from me...!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="likeandsuscribe">
+            <a class="">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="ml-3 text-xl">CoderHArry</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">copyright© 2021  CoderHarry—
+              <a href="https://twitter.com" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Blogger</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+
+              <a href="http://www.facebook.com/" class="icon" rel="noopener noreferrer" target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theboxescaperoom.com%2Ffb%2F&psig=AOvVaw2Bs9a02uBYDTvN_ljwWKuA&ust=1619862220749000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiF9aDXpfACFQAAAAAdAAAAABAf" alt="Facebook"></a>
+              <a  class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+      <br>
+      <hr size="100" width="1000"><br><br>
+
+<div class="commentsbox">
+      <form action="https://prajwalrai.com.np/wp-comments-post.php" method="post" id="commentform" class="comment-form anti-spam-form-processed" novalidate="">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+<p class="captcha-title">
+	Enter Captcha Here :
+	<span class="error" style="color:red">*</span>
+</p>
+<input type="text" name="ux_txt_captcha_challenge_field" id="ux_txt_captcha_challenge_field" style="display:block;">
+<img src="https://prajwalrai.com.np/wp-admin/admin-ajax.php?captcha_code=2324" class="captcha_code_img" id="captcha_code_img" style="margin-top:10px; cursor:pointer; border:0px solid #cccccc">
+<img class="refresh-img" style="cursor:pointer;margin-top:9px;vertical-align: top;" onclick="refresh();" alt="Reload Image" height="16" width="16" src="https://prajwalrai.com.np/wp-content/plugins/captcha-bank/assets/global/img/refresh-icon.png">
+
+<script type="text/javascript">
+	function refresh()
+	{
+		var randNum = Math.floor((Math.random() * 99999) + 1);
+		jQuery("#captcha_code_img").attr("src", "https://prajwalrai.com.np/wp-admin/admin-ajax.php?captcha_code=" + randNum);
+		return true;
+	}
+</script>
+</form>
+</div>
+</body>
+</html>
